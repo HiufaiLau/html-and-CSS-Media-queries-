@@ -28,6 +28,16 @@ body {
   display: table;
   clear: both;
 }
+.headline {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+textarea{
+  resize: none;
+}
+
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
