@@ -27,7 +27,7 @@ img{
 } */
 
 .footer {
-  background-color: #0099cc;
+  background-color: rgba(0, 0, 0, 0.3);;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
