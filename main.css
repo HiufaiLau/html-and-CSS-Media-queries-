@@ -131,7 +131,8 @@ border-radius: 10px;
 }
 
 .header li a:hover {
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
+  background-color: rgba(125, 65, 14, 0.3);
 }
 
 .header .logo {
