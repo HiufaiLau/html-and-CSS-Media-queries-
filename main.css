@@ -125,14 +125,18 @@ body {
   margin: 2%;
   padding: 20px 20px;
   border-style: groove;
-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   /* border-right: 1px solid #f4f4f4; */
   text-decoration: none;
+  color: #000;
+  font-family: 'Rock Salt', cursive;
 }
 
 .header li a:hover {
   /* background-color: #f4f4f4; */
   background-color: rgba(125, 65, 14, 0.3);
+  color: #fff;
 }
 
 .header .logo {
