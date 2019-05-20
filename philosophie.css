@@ -27,7 +27,7 @@ img{
 } */
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);;
   color: #ffffff;
   text-align: center;
   /* font-size: 12px; */
@@ -105,15 +105,14 @@ body {
 
 .header {
   /* background-color: #fff; */
-    /* background-color: rgba(0, 0, 0, 0.3); */
   /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
   position: fixed;
-  width: 98.5%;
-  height:16vh;
+  width: 100%;
   z-index: 3;
 }
 
 .header ul {
+  margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
@@ -122,10 +121,7 @@ body {
 
 .header li a {
   display: block;
-  margin: 2%;
   padding: 20px 20px;
-  border-style: groove;
-border-radius: 10px;
   /* border-right: 1px solid #f4f4f4; */
   text-decoration: none;
 }
@@ -190,7 +186,7 @@ border-radius: 10px;
 }
 
 .header .menu-btn:checked ~ .menu {
-      max-height: 800px;
+  max-height: 240px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -271,7 +267,8 @@ input[type=submit]:hover {
 .column {
   float: left;
   width: 50%;
-  margin-top: 6px;
+  margin-top: 3%;
+  margin-bottom:6%; 
   padding: 20px;
 }
 
