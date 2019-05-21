@@ -1,3 +1,9 @@
+#overlap {
+  position: absolute;
+  z-index: 4;
+  right: 250px;
+  bottom: 250px;
+}
 
 img{
   width: 100%;
