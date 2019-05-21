@@ -58,7 +58,7 @@ img{
 
 /* Remove extra left and right margins, due to padding */
 .row {
-  margin: 0 -5px;
+  /* margin: 0 -5px; */
 }
 
 /* Clear floats after the columns */
@@ -112,11 +112,6 @@ body{
   background-size: cover;
   background-attachment: fixed;
 } */
-
-/* textarea{
-  resize: none;
-} */
-
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
