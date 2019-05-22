@@ -344,8 +344,24 @@ input[type=submit]:hover {
   float: left;
   width: 50%;
   margin-top: 10%;
-  margin-bottom:5%;
-  padding: 20px;
+  /* margin-bottom:5%; */
+  /* padding: 20px; */
+  font-family: 'Dekko', cursive;
+
+}
+.kontaktColumn a {
+  display: block;
+  /* border-right: 1px solid #f4f4f4; */
+  text-decoration: none;
+  color: Darkred;
+  font-family: 'Dekko', cursive;
+  /* background-color: rgba(0,0,0,0.1); */
+}
+
+.kontaktColumn a:hover {
+  /* background-color: #f4f4f4; */
+  background-color: rgba(125, 65, 14, 0.3);
+  color: #fff;
 }
 
 span.kontakt{
