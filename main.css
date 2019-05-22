@@ -1,13 +1,17 @@
 #overlap {
   position: absolute;
   z-index: 4;
-  right: 300px;
-  bottom: 180px;
+  /* right: 300px; */
+  bottom: 100px;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 5%;
+  margin-right:
   font-size: 30px;
   font-family: 'Dekko', cursive;
   color: #fff;
+}
+.kontaktColumn{
+
 }
 
 img{
@@ -129,7 +133,8 @@ body{
   .column {
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 6%;
+    margin-top: 6%
   }
 }
 
@@ -316,7 +321,15 @@ input[type=submit]:hover {
 .column {
   float: left;
   width: 50%;
-  margin-top: 10%;
+  margin-top: 6%;
+  margin-bottom:5%;
+  padding: 20px;
+}
+
+.kontaktColumn {
+  float: left;
+  width: 50%;
+  margin-top: 13%;
   margin-bottom:5%;
   padding: 20px;
 }
