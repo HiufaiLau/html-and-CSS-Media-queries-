@@ -1,17 +1,16 @@
 #overlap {
+  font-size: 40;
   position: absolute;
   z-index: 4;
-  /* right: 300px; */
-  bottom: 100px;
+  right: 350px;
+  bottom: 200px;
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 5%;
+  padding: 3%;
   margin-right:
   font-size: 30px;
   font-family: 'Dekko', cursive;
   color: #fff;
-}
-.kontaktColumn{
-
+  font-size: 25px;
 }
 
 img{
@@ -43,7 +42,7 @@ img{
 } */
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
   color: #ffffff;
   text-align: center;
   /* font-size: 12px; */
@@ -135,6 +134,20 @@ body{
     display: block;
     margin-bottom: 6%;
     margin-top: 6%
+  }
+
+  #overlap {
+    font-size: 40;
+    position: absolute;
+    z-index: 4;
+    right: 1px;
+      bottom: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5%;
+    margin-right:
+    font-size: 30px;
+    font-family: 'Dekko', cursive;
+    color: #fff;
   }
 }
 
@@ -321,17 +334,30 @@ input[type=submit]:hover {
 .column {
   float: left;
   width: 50%;
-  margin-top: 6%;
+  margin-top: 10%;
   margin-bottom:5%;
   padding: 20px;
+}
+
+.bg{
+  background-color: rgba(0, 0, 0, 0.3);
+  color:#fff;
+  margin-top:20%;
+  /* position: absolute;
+  top:100; */
 }
 
 .kontaktColumn {
   float: left;
   width: 50%;
-  margin-top: 13%;
+  margin-top: 10%;
   margin-bottom:5%;
   padding: 20px;
+}
+
+span.kontakt{
+  margin-left:2%;
+  margin-top:3%;
 }
 
 /* Clear floats after the columns */
@@ -346,6 +372,6 @@ make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
 }
