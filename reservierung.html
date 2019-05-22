@@ -1,17 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Dekko&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
   <title>Wok Show</title>
+
 </head>
 
 <body>
+  <div class="background">
+  </div>
 
+  <header class="header">
+    <a href="index.html" class="logo"><img src="./img/wokshowLogo.png" alt="wokshowLogo" style="width:90px; height:80px;"></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="philosophie.html">Philosophie</a></li>
+      <li><a href="speisekarte.html">Speisekarte</a></li>
+      <li><a href="reservierung.html">Reservierung</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </header>
+
+
+  <div class="fomular">
+
+    <div class="row">
+      <div class="column">
+        <div style="text-align:center">
+          <h2>Reservierung</h2>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <img src="./img/bg.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="meeting-time">Choose a time for reservation:</label>
+          <input type="datetime-local" id="time" name="time" value="2019-05-17T18:20" min="2019-05-16T18:00" max="2019-12-31T00:00">
+          <label for="person">How many Person</label>
+          <select id="number" name="number">
+            <option value="null">-</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2019 – WokShow. Alle Rechte vorbehalten.</p>
+  </div>
+  <!-- </div> -->
 </body>
 
 </html>

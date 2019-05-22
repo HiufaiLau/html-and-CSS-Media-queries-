@@ -1,13 +1,18 @@
 #overlap {
   position: absolute;
   z-index: 4;
-  right: 250px;
-  bottom: 250px;
+  right: 300px;
+  bottom: 180px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5%;
+  font-size: 30px;
+  font-family: 'Dekko', cursive;
+  color: #fff;
 }
 
 img{
   width: 100%;
-  height: 50vh;
+  height: 70vh;
 }
 
 /* .twoColumn {
@@ -311,7 +316,7 @@ input[type=submit]:hover {
 .column {
   float: left;
   width: 50%;
-  margin-top: 6%;
+  margin-top: 10%;
   margin-bottom:5%;
   padding: 20px;
 }
@@ -328,6 +333,6 @@ make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 15%;
   }
 }
