@@ -11,10 +11,21 @@
   flex: 1;
   /* padding: 10px; */
   width: 50%;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   margin-bottom: 5%;
   padding-left: 25px;
   padding-right: 20px;
+}
+
+.dumpColumn{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Dekko', cursive;
+    color: #fff;
+    font-size: 30px;
+    /* background-color: rgba(0,0,0,0.3) */
+    /* margin-bottom: 5%; */
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -29,7 +40,7 @@
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 300px;
+  height: 350px;
   padding: 10px;
   /* border: 1px solid #f1f1f1; */
   perspective: 1000px; /the 3D effect */
@@ -66,9 +77,10 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color:#c1b29c;
   color: white;
   transform: rotateY(180deg);
+  font-family: 'Dekko', cursive;
 }
 
 
@@ -289,7 +301,15 @@ body{
     margin-top: 5%;
     /* margin-bottom: 5%; */
   }
-  /* p{
+
+@media screen and (max-width: 600px) {
+  .dumpColumn {
+    width: 100%;
     text-align: center;
-  } */
+    margin-top: 17%;
+    font-family: 'Dekko', cursive;
+    color: #fff;
+    font-size: 15px;
+    /* margin-bottom: 5%; */
+}
 }
