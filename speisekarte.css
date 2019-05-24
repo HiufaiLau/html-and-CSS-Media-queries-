@@ -254,6 +254,8 @@ body{
 
 .header .menu-btn:checked ~ .menu {
       max-height: 800px;
+      background-color: #9f9a94ba;
+      
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {

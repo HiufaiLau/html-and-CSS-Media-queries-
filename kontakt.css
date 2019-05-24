@@ -82,7 +82,9 @@ body{
   list-style: none;
   overflow: hidden;
   /* background-color: #fff; */
+  /* background-color:#9f9a94ba; */
 }
+
 
 .header li a {
   display: block;
@@ -163,6 +165,7 @@ body{
 
 .header .menu-btn:checked ~ .menu {
       max-height: 800px;
+      background-color: #9f9a94ba;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -186,6 +189,7 @@ body{
   .header li {
     float: left;
   }
+
   .header li a {
     padding: 7px 15px;
   }
@@ -197,6 +201,12 @@ body{
   }
   .header .menu-icon {
     display: none;
+  }
+
+  .header li a:hover {
+    /* background-color: #f4f4f4; */
+    background-color: rgba(125, 65, 14, 0.3);
+    color: #fff;
   }
 }
 
