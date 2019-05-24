@@ -4,7 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Dekko&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="reservierung.css">
   <title>Wok Show</title>
 
 </head>
@@ -27,24 +27,20 @@
 
 
   <div class="fomular">
-
     <div class="row">
       <div class="column">
-        <div style="text-align:center">
-          <h2>Reservierung</h2>
-          <h3>Swing by for Dumplings, or leave us a message:</h3>
-        </div>
-        <img src="./img/dump3.jpg" style="width:100%">
+        <img class="reservationPic" src="./img/dump3.jpg">
       </div>
       <div class="column">
         <form>
-          <label for="fname">First Name</label>
+          <h2>Reservierung</h2>
+          <label for="fname">Vorname</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
+          <label for="lname">Nachname</label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="meeting-time">Choose a time for reservation:</label>
+          <label for="meeting-time">Bitte wählen Sie die passende Zeit:</label>
           <input type="datetime-local" id="time" name="time" value="2019-05-17T18:20" min="2019-05-16T18:00" max="2019-12-31T00:00">
-          <label for="person">How many Person</label>
+          <label for="person">Wie viele Personen</label>
           <select id="number" name="number">
             <option value="null">-</option>
             <option value="1">1</option>
@@ -58,8 +54,8 @@
             <option value="9">9</option>
             <option value="10">10</option>
           </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <label for="subject">Bemerkung</label>
+          <textarea id="subject" name="subject" placeholder="z.B. Allergie...Gluten frei..." style="height:100px"></textarea>
           <input type="submit" value="Submit">
         </form>
       </div>
