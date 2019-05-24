@@ -1,30 +1,51 @@
 
-* {
-  box-sizing: border-box;
-}
-
-
 h2{
   font-size: 30px;
   font-family: 'Dekko', cursive;
-  margin: 0;
-  color: white;
 }
 
-form{
+h3,form,input{
     font-family: 'Dekko', cursive;
     font-size: 15px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 3px double white;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
-.reservation{
-  width:100%
+#overlap {
+  font-size: 40px;
+  position: absolute;
+  z-index: 1;
+  right: 350px;
+  bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 3%;
+  font-family: 'Dekko', cursive;
+  color: #fff;
+  animation: mymove 15s infinite;
+  animation-delay: 2s;
+  text-align: center;
+}
+
+@keyframes mymove {
+  from {right: 0px;}
+  to {leftt: 200px;}
+}
+
+.bgimg{
+  margin-left: 5%;
+}
+
+img{
+  /* margin-left: 30%; */
+  width: 95%;
+  height: 75vh;
+}
+
+.philosophie{
+  margin-top:30%;
+
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .footer {
@@ -178,7 +199,6 @@ body{
 .header .menu-btn:checked ~ .menu {
       max-height: 800px;
       background-color: #9f9a94ba;
-      
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -202,6 +222,14 @@ body{
   .header li {
     float: left;
   }
+
+  .header ul {
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    /* background-color: #9f9a94ba; */
+  }
+
   .header li a {
     padding: 7px 15px;
   }
@@ -210,7 +238,6 @@ body{
     float: right;
     max-height: none;
     /* background-color: rgba(185, 179, 154, 0.83); */
-
   }
   .header .menu-icon {
     display: none;
@@ -245,13 +272,11 @@ input[type=datetime-local], select, textarea {
 }
 
 input[type=submit] {
-    background-color: rgba(197, 90, 10, 0.48);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
+  background-color : rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 input[type=submit]:hover {
@@ -275,12 +300,69 @@ input[type=submit]:hover {
   padding-right: 20px;
 }
 
-
-.reservationPic {
-    width: 100%;
-    /* height: 95vh; */
-    /* margin-top: 21%; */
+.bg{
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Dekko', cursive;
+  color: #fff;
+  font-size: 18px;
+  margin-top:20%;
+  position: relative;
+  left: 150px;
+  bottom: 50px;
+  border:3px double white;
 }
+
+.kontaktColumn {
+  /* float: left;
+  width: 50%; */
+  /* margin-top: 13%; */
+  /* margin-bottom:5%; */
+  /* padding: 20px; */
+  font-family: 'Dekko', cursive;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border:3px double;
+  /* position: relative;
+  left: 150px;
+  top: 50px; */
+}
+
+.kontaktColumn a {
+  /* display: block; */
+  /* border-right: 1px solid #f4f4f4; */
+  text-decoration: none;
+  color: #f1c8ab;
+  font-family: 'Dekko', cursive;
+}
+
+.kontaktColumn a:hover {
+  /* background-color: #f4f4f4; */
+  background-color: rgba(125, 65, 14, 0.3);
+  color: #fff;
+}
+
+span.kontakt{
+  margin-left:2%;
+  margin-top:3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide,
+make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 17%;
+  }
+
+}
+
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   h2{
@@ -293,4 +375,77 @@ input[type=submit]:hover {
     /* margin-bottom: 6%; */
     margin-top: 30%;
   }
+
+  .kontaktColumn {
+    float: left;
+    /* width: 50%; */
+    margin-top: 13%;
+    /* margin-bottom:5%; */
+    padding: 20px;
+    font-family: 'Dekko', cursive;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    color:white;
+    text-decoration: none;
+  }
+
+  #overlap {
+    font-size: 40;
+    top: 80px;
+    position: absolute;
+    z-index: 1;
+    right: 1px;
+    bottom: 380px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5%;
+    margin-right:
+    font-family: 'Dekko', cursive;
+    color: #fff;
+    font-size: 25px;
+    animation: mymove 20s infinite;
+    animation-delay: 2s;
+  }
+
+
+  @keyframes mymove {
+    from {right: 0px;}
+    to {leftt: 100px;}
+  }
+
+
+  img {
+    /* margin-right: 3%; */
+    width: 100%;
+    height: 50vh;
+}
+
+.bgimg{
+  margin-left: 0%;
+}
+
+.bg{
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Dekko', cursive;
+  color: #fff;
+  font-size: 18px;
+  margin-top:20%;
+    position: unset;
+    border: 4px double;
+}
+
+.kontaktColumn a {
+  /* display: block; */
+  /* border-right: 1px solid #f4f4f4; */
+  text-decoration: none;
+  color: #f1c8ab;
+  font-family: 'Dekko', cursive;
+  /* background-color: rgba(0,0,0,0.1); */
+}
+
+.kontaktColumn a:hover {
+  /* background-color: #f4f4f4; */
+  /* background-color: rgba(125, 65, 14, 0.3); */
+  color: #fff;
+}
+
+
 }
